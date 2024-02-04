@@ -36,7 +36,7 @@ export default async function Home() {
                 alt=""
                 width={100}
                 height={100}
-                className="rounded-full h-[48px] w-[48px]"
+                className="rounded-full h-[48px] w-[48px] pointer-events-none"
               />
               <div className="flex flex-col">
                 <span className="font-semibold">{CONFIG.name}</span>
