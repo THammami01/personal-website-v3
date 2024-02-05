@@ -377,7 +377,7 @@ export default async function Home() {
                     new Date(b.dateFinished).getTime() -
                     new Date(a.dateFinished).getTime(),
                 )
-                .slice(0, 3)
+                .slice(0, 2)
                 .map((book, idx) => {
                   // const reformattedDate = reformatDate(book.dateFinished);
                   return (
