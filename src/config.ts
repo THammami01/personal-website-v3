@@ -22,10 +22,33 @@ export const CONFIG = {
       featured: true,
       name: 'YouTube Ad Blocker',
       slug: 'youtube-ad-blocker',
-      description: 'Extension for Chromium-based broswers that skips video ads.',
-      image:
-      'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707034710/personal-website-v3/youtube-ad-blocker_ysu9fx.png',
+      description: 'Skip/hide ads and see statistics.',
+      image: 'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707034710/personal-website-v3/youtube-ad-blocker_ysu9fx.png',
       link: 'https://github.com/THammami01/youtube-ad-blocker'
+    },
+    {
+      featured: true,
+      name: 'Chrome Tabs Saver',
+      slug: 'tabs-saver-ce',
+      description: 'Save your active window tabs and reopen them at any time.',
+      image: 'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707422426/personal-website-v3/tabs-saver-ce_s1ooif.png',
+      link: 'https://github.com/THammami01/tabs-saver-ce'
+    },
+    {
+      featured: true,
+      name: 'React TS Code Snippets for VS Code',
+      slug: 'react-ts-code-snippets',
+      description: 'Helpful code snippets for working with React and TypeScript.',
+      image: 'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707423343/personal-website-v3/react-ts-code-snippets_a6zjxr.png',
+      link: 'https://github.com/THammami01/react-ts-code-snippets'
+    },
+    {
+      featured: false,
+      name: 'Typing Speed PWA',
+      slug: 'w3s-typing-speed-test-clone',
+      description: 'Practice and improve your typing speed.',
+      image: 'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707424798/personal-website-v3/w3s-typing-speed-test-clone_e7lgyu.png',
+      link: 'https://github.com/THammami01/w3s-typing-speed-test-clone'
     }
   ],
   reading: [
