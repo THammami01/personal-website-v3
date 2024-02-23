@@ -57,18 +57,18 @@ export default function Posts({
               All
             </Link>
             <Link
+              href="/posts?tag=general"
+              className={`${tag === 'general' ? 'text-secondaryDark underline' : 'text-secondaryDarker'} hover:text-secondaryDark duration-200 hover:underline`}
+            >
+              General
+            </Link>
+            <Link
               href="/posts?tag=technical"
               className={`${tag === 'technical' ? 'text-secondaryDark underline' : 'text-secondaryDarker'} hover:text-secondaryDark duration-200 hover:underline`}
             >
               Technical
             </Link>
             {/* <Link
-              href="/posts?tag=personal"
-              className={`${tag === 'personal' ? 'text-secondaryDark underline' : 'text-secondaryDarker'} hover:text-secondaryDark duration-200 hover:underline`}
-            >
-              Personal
-            </Link>
-            <Link
               href="/posts?tag=random"
               className={`${tag === 'random' ? 'text-secondaryDark underline' : 'text-secondaryDarker'} hover:text-secondaryDark duration-200 hover:underline`}
             >

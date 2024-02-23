@@ -248,7 +248,7 @@ export default async function Home() {
                           </span>
                         </div>
                       </div>
-                      <svg
+                      {/* <svg
                         width="12"
                         height="12"
                         viewBox="0 0 12 12"
@@ -260,6 +260,21 @@ export default async function Home() {
                           d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
                           fill="currentColor"
                         />
+                      </svg> */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="lucide lucide-link text-secondaryDarker w-[20px] md:w-auto"
+                      >
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
                       </svg>
                     </Link>
                   );
@@ -404,7 +419,7 @@ export default async function Home() {
                           </span> */}
                         </div>
                       </div>
-                      <svg
+                      {/* <svg
                         width="12"
                         height="12"
                         viewBox="0 0 12 12"
@@ -416,6 +431,21 @@ export default async function Home() {
                           d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
                           fill="currentColor"
                         />
+                      </svg> */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="lucide lucide-link text-secondaryDarker w-[20px] md:w-auto"
+                      >
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
                       </svg>
                     </Link>
                   );

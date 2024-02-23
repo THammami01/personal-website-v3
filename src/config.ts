@@ -20,6 +20,14 @@ export const CONFIG = {
   projects: [
     {
       featured: true,
+      name: 'Bookme',
+      slug: 'bookme',
+      description: 'Schedule exclusive sessions with your favorite models.',
+      image: 'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707426819/personal-website-v3/bookme_rthu20.png',
+      link: 'https://www.bookme.fans'
+    },
+    {
+      featured: true,
       name: 'YouTube Ad Blocker',
       slug: 'youtube-ad-blocker',
       description: 'Skip/hide ads and see statistics.',
@@ -35,12 +43,20 @@ export const CONFIG = {
       link: 'https://github.com/THammami01/tabs-saver-ce'
     },
     {
-      featured: true,
+      featured: false,
       name: 'React TS Code Snippets for VS Code',
       slug: 'react-ts-code-snippets',
-      description: 'Helpful code snippets for working with React and TypeScript.',
+      description: 'Helpful code snippets for React and TypeScript.',
       image: 'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707423343/personal-website-v3/react-ts-code-snippets_a6zjxr.png',
       link: 'https://github.com/THammami01/react-ts-code-snippets'
+    },
+    {
+      featured: false,
+      name: 'Project Curve',
+      slug: 'project-curve',
+      description: 'Calculate projects end dates/duration estimates.',
+      image: 'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707427196/personal-website-v3/project-curve_nng8no.png',
+      link: 'https://app.project-curve.com/'
     },
     {
       featured: false,
@@ -52,6 +68,13 @@ export const CONFIG = {
     }
   ],
   reading: [
+    {
+      title: 'Blitzscaling',
+      author: 'Reid Hoffman, Chris Yeh, Bill Gates',
+      link: 'https://www.amazon.com/Blitzscaling-Lightning-Fast-Building-Massively-Companies/dp/1524761419',
+      rating: 4.5,
+      dateFinished: '2024',
+    },
     {
       title: 'Designing Data-Intensive Applications',
       author: 'Martin Kleppmann',
