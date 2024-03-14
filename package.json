@@ -12,21 +12,25 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@tailwindcss/typography": "^0.5.10",
     "@upstash/redis": "^1.28.2",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.13",
     "next": "14.1.0",
     "next-mdx-remote": "^4.4.1",
     "react": "^18",
-    "react-dom": "^18", 
-    "sugar-high": "^0.5.6"
+    "react-dom": "^18",
+    "sugar-high": "^0.5.6",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/tailwindcss": "^3.1.0",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "typescript": "^5"
   }
 }
