@@ -26,9 +26,19 @@ export const TracingBeam = ({
   const [svgHeight, setSvgHeight] = useState(0);
 
   useEffect(() => {
-    if (contentRef.current) {
-      setSvgHeight(contentRef.current.offsetHeight);
-    }
+    if (contentRef.current) setSvgHeight(contentRef.current.offsetHeight);
+
+    const observer = new ResizeObserver(entries => {
+      for (let entry of entries)
+        if (entry.contentBoxSize) setSvgHeight(entry.contentBoxSize[0].blockSize);
+        else setSvgHeight(entry.contentRect.height);
+    });
+
+    if (contentRef.current) observer.observe(contentRef.current);
+
+    return () => {
+      if (contentRef.current) observer.unobserve(contentRef.current);
+    };
   }, []);
 
   const y1 = useSpring(
@@ -51,7 +61,7 @@ export const TracingBeam = ({
       ref={ref}
       className={cn("relative w-full max-w-4xl mx-auto h-100", className)}
     >
-      <div className="absolute -left-4 md:-left-20 top-3">
+      <div className="absolute -left-7 md:-left-20 -top-2 md:top-[-20px]">
         <motion.div
           transition={{
             duration: 0.2,

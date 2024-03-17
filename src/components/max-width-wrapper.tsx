@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { TracingBeam } from '@/components/tracing-beam';
 
 export default function MaxWidthWrapper({
   className,
@@ -9,7 +10,9 @@ export default function MaxWidthWrapper({
 }) {
   return (
     <div className="mx-auto w-full max-w-3xl px-4 lg:px-20 pt-4 md:pt-10">
-      {children}
+      <TracingBeam className="px-6 md:px-0">
+        {children}
+      </TracingBeam>
     </div>
   );
 }

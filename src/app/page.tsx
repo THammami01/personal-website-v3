@@ -477,7 +477,7 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className='md:px-2 flex flex-row items-center justify-between mt-6 mb-4'>
+      <div className='md:px-2 flex flex-row items-center justify-between mt-6 pb-4'>
         <span className='flex-1'></span>
         
         <span className='text-secondaryDarker md:p-4'>Personal Website v3</span>
