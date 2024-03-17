@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     title: 'Tarek Hammami',
     card: 'summary_large_image',
   },
+  manifest : "/manifest.json",
 };
 
 export default function RootLayout({
@@ -51,6 +52,7 @@ export default function RootLayout({
           type="image/<generated>"
           sizes="<generated>"
         />
+        <meta name="theme-color" content="#131313" />
         <script
           src="https://beamanalytics.b-cdn.net/beam.min.js"
           data-token="1a42d811-ba88-43b2-82bd-8fa38c568a81"
