@@ -3,7 +3,7 @@ export const CONFIG = {
   headshot:
     'https://res.cloudinary.com/dgihbgsnz/image/upload/v1707010371/personal-website-v3/profile-pic_t2qxi0.png',
   title: 'Developer · Writer · OSS Contributor',
-  description: `Hello, I'm Tarek, a software developer from Tunis, Tunisia 🇹🇳.
+  description: `Hello, I'm Tarek, a software developer based in Paris, France.
   I actively contribute to the development of free and open source software.
   Beyond coding, I engage in creating technical content, where I share my knowledge
   and experience on software development.`,
